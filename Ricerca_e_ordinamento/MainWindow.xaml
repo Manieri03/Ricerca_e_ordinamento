@@ -16,7 +16,7 @@
         <Image Margin="10,20,422,-10" Source="boy-4220282_960_720.png" Stretch="Fill"/>
 
         <TextBox x:Name="txtnome" HorizontalAlignment="Left" Height="23" Margin="205,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#7FFFFFFF"/>
-        <Label Content="Inserisci qui cognome e nome dello studente" HorizontalAlignment="Left" Height="37" Margin="130,30,0,0" VerticalAlignment="Top" Width="345" FontSize="16" FontFamily="Segoe UI Semibold" OpacityMask="#FFAE2F2F" Background="#7F23B961"/>
+        <Label Content="Inserisci qui cognome e nome dello studente" HorizontalAlignment="Left" Height="37" Margin="140,30,0,0" VerticalAlignment="Top" Width="335" FontSize="16" FontFamily="Segoe UI Semibold" OpacityMask="#FFAE2F2F" Background="#7F23B961"/>
         <Button x:Name="btninserisci" Content="Inserisci" HorizontalAlignment="Left" Margin="265,128,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe UI Semibold" FontSize="14" Click="btninserisci_Click" Background="#FFABF0CA"/>
         <TextBox x:Name="txtlista" IsReadOnly="True" HorizontalAlignment="Left" Height="180" Margin="205,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#7FFFFFFF"/>
         <Button x:Name="btnsalva" Content="Salva" HorizontalAlignment="Left" Margin="255,375,0,0" VerticalAlignment="Top" Width="110" Height="25" FontFamily="Segoe UI Semibold" FontSize="14" Click="btnsalva_Click" Background="#FFABF0CA"/>
