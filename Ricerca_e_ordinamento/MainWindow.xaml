@@ -1,0 +1,27 @@
+﻿<Window x:Class="Ricerca_e_ordinamento.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ricerca_e_ordinamento"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFDEF3E5" Offset="0"/>
+                <GradientStop Color="#FF9EF1B9" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image Margin="10,20,422,-10" Source="boy-4220282_960_720.png" Stretch="Fill"/>
+
+        <TextBox x:Name="txtnome" HorizontalAlignment="Left" Height="23" Margin="205,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#7FFFFFFF"/>
+        <Label Content="Inserisci qui cognome e nome dello studente" HorizontalAlignment="Left" Height="37" Margin="130,30,0,0" VerticalAlignment="Top" Width="345" FontSize="16" FontFamily="Segoe UI Semibold" OpacityMask="#FFAE2F2F" Background="#7F23B961"/>
+        <Button x:Name="btninserisci" Content="Inserisci" HorizontalAlignment="Left" Margin="265,128,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe UI Semibold" FontSize="14" Click="btninserisci_Click" Background="#FFABF0CA"/>
+        <TextBox x:Name="txtlista" IsReadOnly="True" HorizontalAlignment="Left" Height="180" Margin="205,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Background="#7FFFFFFF"/>
+        <Button x:Name="btnsalva" Content="Salva" HorizontalAlignment="Left" Margin="255,375,0,0" VerticalAlignment="Top" Width="110" Height="25" FontFamily="Segoe UI Semibold" FontSize="14" Click="btnsalva_Click" Background="#FFABF0CA"/>
+        <TextBox x:Name="txtricerca" HorizontalAlignment="Left" Height="23" Margin="555,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#7FFFFFFF"/>
+        <Button x:Name="btncerca" Content="Cerca" HorizontalAlignment="Left" Margin="575,175,0,0" VerticalAlignment="Top" Width="80" FontFamily="Segoe UI Semibold" Click="btncerca_Click" Background="#FFABF0CA" Height="36"/>
+
+    </Grid>
+</Window>
