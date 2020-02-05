@@ -69,11 +69,11 @@ namespace Ricerca_e_ordinamento
             }
             if (stato == true)
             {
-                lblcerca.Content = "Il nome è contenuto nella lista";
+                MessageBox.Show("Il nome è contenuto nella lista", "Informazione", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
             {
-                lblcerca.Content = "Il nome non è contenuto nella lista";
+                MessageBox.Show("Il nome non è contenuto nella lista", "Informazione", MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
     }
